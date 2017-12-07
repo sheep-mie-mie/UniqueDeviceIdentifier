@@ -16,7 +16,7 @@
 		41AE781B1FCFEE7500AEBAE1 /* UniqueDeviceIdentifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AE781A1FCFEE7500AEBAE1 /* UniqueDeviceIdentifierTests.m */; };
 		41AE78261FCFEE7500AEBAE1 /* UniqueDeviceIdentifierUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AE78251FCFEE7500AEBAE1 /* UniqueDeviceIdentifierUITests.m */; };
 		41AE78381FCFEEE600AEBAE1 /* UIDevice+IdentifierAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AE78341FCFEEE600AEBAE1 /* UIDevice+IdentifierAddress.m */; };
-		41AE78391FCFEEE600AEBAE1 /* NSString+MD5Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AE78351FCFEEE600AEBAE1 /* NSString+MD5Address.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		41AE78391FCFEEE600AEBAE1 /* NSString+MD5Address.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AE78351FCFEEE600AEBAE1 /* NSString+MD5Address.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

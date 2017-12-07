@@ -40,4 +40,15 @@
 
 
 
+/**
+ 返回拼接的设备的广告标识IDFA和设备的MAC的MD5值
+
+ @return 返回拼接的设备的广告标识IDFA和设备的MAC的MD5值
+ */
+- (NSString *)returnDeviceIDFAWithMd5MacAddress;
+
+
+
+
+
 @end

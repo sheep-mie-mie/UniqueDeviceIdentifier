@@ -30,8 +30,8 @@
     /**
      * 需要在工程里配置ARC环境下使用MRC
      */
-    return [outputString autorelease];
-    
+//    return [outputString autorelease];
+    return outputString;
 }
 
 

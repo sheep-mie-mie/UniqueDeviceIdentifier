@@ -118,5 +118,24 @@
 }
 
 
+/**
+ 返回拼接的设备的广告标识IDFA和设备的MAC的MD5值
+ 
+ @return 返回拼接的设备的广告标识IDFA和设备的MAC的MD5值
+ */
+- (NSString *)returnDeviceIDFAWithMd5MacAddress {
+    
+    // 设备的广告标识IDFA
+    NSString *uniqueIdentifier = [self uniqueDeviceAdvertisingIdentifier];
+    // 设备的MAC的MD5值
+    NSString *macAddressMd5 = [self uniqueGlobal_Md5_DeviceIdentifier];
+    // 返回拼接的字符串
+    NSString *returnMd5MacIdfa = [NSString stringWithFormat:@"%@||%@",uniqueIdentifier,macAddressMd5];
+    
+    return returnMd5MacIdfa;
+}
+
+
+
 
 @end
